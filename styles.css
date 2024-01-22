@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.drop-down-container{
+    /* height: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    background-color: rgb(224, 42, 42);
+}
+.drop-down-container img{
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.drop-down-container div{
+    font-size: 11px;
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+    /* margin-right: 3px; */
+}
+
+.nav-title:hover{
+    color: brown;
+}
