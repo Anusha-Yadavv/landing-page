@@ -3,24 +3,33 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: white;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 15px;
 }
-.drop-down-container{
+
+.drop-down-container {
     /* height: 30px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     width: 100%;
     background-color: rgb(224, 42, 42);
 }
-.drop-down-container img{
+
+.drop-down-container img {
     height: 70px;
     margin-top: 10px;
     margin-left: 5px;
 }
-.drop-down-container div{
+
+.drop-down-container div {
     font-size: 11px;
     color: white;
     margin: 10px;
@@ -28,6 +37,106 @@ body{
     /* margin-right: 3px; */
 }
 
-.nav-title:hover{
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* background-color: rgba(255, 255, 255, 0.8); Optional: Add a semi-transparent background for better readability */
+    background-color: rgba(255, 255, 255, 0.89);
+
+
+}
+
+.nav-title:hover {
     color: brown;
+}
+
+#ayodhya-background-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+}
+
+.ayodhya-title-container {
+
+    height: 70px;
+    background-color: rgb(240, 19, 19);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    width: 340px;
+}
+
+.ayodhya-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+
+
+}
+
+.breed-crum-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(177, 177, 177);
+
+}
+
+.breadcrumb li {
+    padding: 15px;
+}
+
+.active {
+    color: brown;
+}
+
+#about-ayodhya-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+#about-ayodhya-section div {
+    margin: 30px;
+}
+
+#about-ayodhya-section img {
+    height: 450px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.blockquote {
+    padding: 0px 20px 0px 30px;
+    position: relative;
+    border-left: 7px solid #ed3e50;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+
+.blockquote p {
+    font-size: 17px;
+}
+
+.para {
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
 }
