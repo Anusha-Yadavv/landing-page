@@ -529,7 +529,8 @@ footer {
     }
 
     #ayodhya-background-section img {
-        height: 300px;
+        width: 100%;
+
     }
 
     .ayodhya-title-container {
