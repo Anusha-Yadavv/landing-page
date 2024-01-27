@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -401,4 +404,123 @@ header {
 
 section {
     position: relative;
+}
+
+.monument {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://uptourism.gov.in/images/monuments-img.png);
+    background-repeat: repeat;
+    background-position: bottom center;
+    min-height: 147px;
+    animation-name: banner-animate;
+}
+
+footer {
+    display: block;
+    background-color: #575f68;
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-column {
+    display: flex;
+    list-style: none;
+    margin: 0px -15px;
+    padding: 15px 0px;
+    flex-wrap: wrap;
+}
+
+.footer-column div {
+    box-sizing: border-box;
+    width: 20%;
+    padding: 0px 15px;
+}
+
+.footer-column ul li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    padding: 0px;
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer-column h3 {
+    color: #ffeac1;
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+
+}
+
+.qrcode img {
+    margin: 5px auto;
+    max-width: 73%;
+    border-radius: 5px;
+    display: block;
+    border: 5px solid #111111;
+}
+
+.qrcode .btn {
+    font-size: 16px;
+    white-space: break-spaces;
+    background-color: #e96222;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 49px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    border: 2px solid #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+.footbtm {
+    background-color: #4c545e;
+    color: #fff;
+    padding: 15px 0px;
+    font-size: 0.9em;
+}
+
+.footbtm a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.stqc-logo {
+    display: block;
+    float: left;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.stqc-logo img {
+    max-width: 100%;
 }
