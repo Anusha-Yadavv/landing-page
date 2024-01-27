@@ -284,19 +284,24 @@ header {
 }
 
 .pagedata h3:after {
-    content: "\f054";
+    content: url('./assets/icons8-namaste-78.png');
+
     font-family: FontAwesome;
     position: absolute;
     left: 0px;
     bottom: 0px;
-    width: 43px;
-    height: 43px;
-    background-color: #e64353;
+    /* width: 43px; */
+    /* height: 43px; */
+    /* background-color: #e64353; */
     color: #fff;
     font-size: 0.6em;
-    text-align: center;
-    padding: 15px;
-    border-radius: 4px 4px 0px 0px;
+    /* text-align: center; */
+    /* padding: 15px; */
+    /* border-radius: 4px 4px 0px 0px; */
+}
+
+.heading {
+    margin-bottom: 50px;
 }
 
 .pagedata h3 {
@@ -304,7 +309,7 @@ header {
     margin-top: 0px;
     margin-bottom: 15px;
     color: #333;
-    padding: 10px 15px 10px 55px;
+    padding: 10px 15px 10px 80px;
     position: relative;
     font-size: 1.4em;
     border-bottom: 1px solid #e64353;
@@ -532,7 +537,8 @@ footer {
         width: 100%;
 
     }
-    .lord-rama-one{
+
+    .lord-rama-one {
         width: 50% !important;
     }
 
